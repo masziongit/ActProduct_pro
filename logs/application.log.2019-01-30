@@ -1,0 +1,35 @@
+2019-01-30 19:01:55 INFO  Oracle JDBC Connection
+2019-01-30 19:01:55 INFO  Oracle JDBC Driver Registered!
+2019-01-30 19:01:55 INFO  You made it, take control your database now!
+2019-01-30 19:01:55 INFO  WRITE File OACSYN190130.R01
+2019-01-30 19:01:55 INFO  Start Connection to SFTP
+2019-01-30 19:01:56 INFO  Connection to SFTP host 192.168.99.101
+2019-01-30 19:01:57 INFO  UploadFile  to /upload/ Complete!
+2019-01-30 19:01:57 INFO  Disconnect from SFTP : 192.168.99.101
+2019-01-30 19:01:57 INFO  Write file complete
+2019-01-30 19:01:57 INFO  Remove local file
+2019-01-30 19:01:57 INFO  Connection close
+2019-01-30 19:02:29 INFO  Oracle JDBC Connection
+2019-01-30 19:02:29 INFO  Oracle JDBC Driver Registered!
+2019-01-30 19:02:30 INFO  You made it, take control your database now!
+2019-01-30 19:02:30 INFO  READ File OACSYN190130.R01
+2019-01-30 19:02:30 INFO  Start Connection to SFTP
+2019-01-30 19:02:30 INFO  Connection to SFTP host 192.168.99.101
+2019-01-30 19:02:31 INFO  DownloadFile from /upload/ Complete!
+2019-01-30 19:02:31 INFO  Disconnect from SFTP : 192.168.99.101
+2019-01-30 19:02:31 INFO  account_id : 0752255497 Update scheme_code from 200 to 0201 Update acct_bal_amt from 0 to 00000000000000001000 Successfully Updated
+2019-01-30 19:02:31 INFO  account_id : 0752262535 Update scheme_code from 200 to 0202 Update acct_bal_amt from 0 to 00000000000000002000 Successfully Updated
+2019-01-30 19:02:32 INFO  Remove local file
+2019-01-30 19:02:32 INFO  Connection close
+2019-01-30 19:02:57 INFO  Oracle JDBC Connection
+2019-01-30 19:02:57 INFO  Oracle JDBC Driver Registered!
+2019-01-30 19:02:57 INFO  You made it, take control your database now!
+2019-01-30 19:02:57 INFO  READ File OACSYN190130.R01
+2019-01-30 19:02:57 INFO  Start Connection to SFTP
+2019-01-30 19:02:58 INFO  Connection to SFTP host 192.168.99.101
+2019-01-30 19:02:59 INFO  DownloadFile from /upload/ Complete!
+2019-01-30 19:02:59 INFO  Disconnect from SFTP : 192.168.99.101
+2019-01-30 19:02:59 INFO  account_id : 0752255497 Update scheme_code from 201 to 0200 Update acct_bal_amt from 10 to 00000000000000000000 Successfully Updated
+2019-01-30 19:02:59 INFO  account_id : 0752262535 Update scheme_code from 202 to 0200 Update acct_bal_amt from 20 to 00000000000000000000 Successfully Updated
+2019-01-30 19:02:59 INFO  Remove local file
+2019-01-30 19:02:59 INFO  Connection close
