@@ -16,3 +16,33 @@
 2019-02-06 11:21:51 ERROR java.lang.NullPointerException
 2019-02-06 11:21:51 INFO  Remove local file
 2019-02-06 11:21:51 INFO  Connection close
+2019-02-06 12:12:04 INFO  Oracle JDBC Connection
+2019-02-06 12:12:04 INFO  Oracle JDBC Driver Registered!
+2019-02-06 12:12:05 INFO  You made it, take control your database now!
+2019-02-06 12:12:05 INFO  WRITE File OACSYN190206.R01
+2019-02-06 12:12:05 INFO  Start Connection to SFTP
+2019-02-06 12:12:05 INFO  Connection to SFTP host 192.168.99.100
+2019-02-06 12:12:07 INFO  UploadFile  to /upload/ Complete!
+2019-02-06 12:12:07 INFO  Write file complete
+2019-02-06 12:12:07 INFO  Remove local file
+2019-02-06 12:12:07 INFO  Connection close
+2019-02-06 12:12:38 INFO  Oracle JDBC Connection
+2019-02-06 12:12:38 INFO  Oracle JDBC Driver Registered!
+2019-02-06 12:12:38 INFO  You made it, take control your database now!
+2019-02-06 12:12:38 INFO  READ File OACSYN190206.R01
+2019-02-06 12:12:38 INFO  Start Connection to SFTP
+2019-02-06 12:12:39 INFO  Connection to SFTP host 192.168.99.100
+2019-02-06 12:12:40 INFO  DownloadFile from /upload/ Complete!
+2019-02-06 12:12:41 INFO  No Data Updated
+2019-02-06 12:12:41 INFO  Remove local file
+2019-02-06 12:12:41 INFO  Connection close
+2019-02-06 12:15:01 INFO  Oracle JDBC Connection
+2019-02-06 12:15:01 INFO  Oracle JDBC Driver Registered!
+2019-02-06 12:15:02 INFO  You made it, take control your database now!
+2019-02-06 12:15:02 INFO  WRITE File OACSYN190206.R01
+2019-02-06 12:15:02 INFO  Start Connection to SFTP
+2019-02-06 12:15:02 INFO  Connection to SFTP host 192.168.99.100
+2019-02-06 12:15:04 INFO  UploadFile  to /upload/ Complete!
+2019-02-06 12:15:04 INFO  Write file complete
+2019-02-06 12:15:04 INFO  Remove local file
+2019-02-06 12:15:04 INFO  Connection close
