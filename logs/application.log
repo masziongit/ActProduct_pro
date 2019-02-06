@@ -1,54 +1,18 @@
-2019-02-04 15:27:34 INFO  Oracle JDBC Connection
-2019-02-04 15:27:34 INFO  Oracle JDBC Driver Registered!
-2019-02-04 15:27:34 INFO  You made it, take control your database now!
-2019-02-04 15:27:34 INFO  WRITE File OACSYN190204.R01
-2019-02-04 15:27:34 INFO  Start Connection to SFTP
-2019-02-04 15:27:35 INFO  Connection to SFTP host 192.168.99.100
-2019-02-04 15:27:36 INFO  UploadFile  to /upload/ Complete!
-2019-02-04 15:27:36 INFO  Disconnect from SFTP : 192.168.99.100
-2019-02-04 15:27:36 INFO  Write file complete
-2019-02-04 15:27:36 INFO  Remove local file
-2019-02-04 15:27:36 INFO  Connection close
-2019-02-04 15:27:41 INFO  Oracle JDBC Connection
-2019-02-04 15:27:41 INFO  Oracle JDBC Driver Registered!
-2019-02-04 15:27:41 INFO  You made it, take control your database now!
-2019-02-04 15:27:41 INFO  READ File OACSYN190204.R01
-2019-02-04 15:27:41 INFO  Start Connection to SFTP
-2019-02-04 15:27:42 INFO  Connection to SFTP host 192.168.99.100
-2019-02-04 15:27:44 ERROR 2: No such file
-2019-02-04 15:27:44 INFO  Disconnect from SFTP : 192.168.99.100
-2019-02-04 15:27:44 ERROR org.beanio.BeanReaderException: Failed to open file 'OACSYN190204.R01' for reading
-2019-02-04 15:28:06 INFO  Oracle JDBC Connection
-2019-02-04 15:28:06 INFO  Oracle JDBC Driver Registered!
-2019-02-04 15:28:07 INFO  You made it, take control your database now!
-2019-02-04 15:28:07 INFO  READ File OACSYN190204.R01
-2019-02-04 15:28:07 INFO  Start Connection to SFTP
-2019-02-04 15:28:07 INFO  Connection to SFTP host 192.168.99.100
-2019-02-04 15:28:09 INFO  DownloadFile from /upload/ Complete!
-2019-02-04 15:28:09 INFO  Disconnect from SFTP : 192.168.99.100
-2019-02-04 15:28:12 INFO  No Data Updated
-2019-02-04 15:28:12 INFO  Remove local file
-2019-02-04 15:28:12 INFO  Connection close
-2019-02-04 17:15:11 INFO  Oracle JDBC Connection
-2019-02-04 17:15:11 INFO  Oracle JDBC Driver Registered!
-2019-02-04 17:15:12 INFO  You made it, take control your database now!
-2019-02-04 17:15:12 INFO  READ File OACSYN190204.R01
-2019-02-04 17:15:12 INFO  Start Connection to SFTP
-2019-02-04 17:15:13 INFO  Connection to SFTP host 192.168.99.100
-2019-02-04 17:15:15 INFO  DownloadFile from /upload/ Complete!
-2019-02-04 17:15:15 INFO  Disconnect from SFTP : 192.168.99.100
-2019-02-04 17:15:17 INFO  No Data Updated
-2019-02-04 17:15:17 INFO  Remove local file
-2019-02-04 17:15:17 INFO  Connection close
-2019-02-04 17:15:35 INFO  Oracle JDBC Connection
-2019-02-04 17:15:35 INFO  Oracle JDBC Driver Registered!
-2019-02-04 17:15:36 INFO  You made it, take control your database now!
-2019-02-04 17:15:36 INFO  READ File OACSYN190204.R01
-2019-02-04 17:15:36 INFO  Start Connection to SFTP
-2019-02-04 17:15:37 INFO  Connection to SFTP host 192.168.99.100
-2019-02-04 17:15:40 INFO  DownloadFile from /upload/ Complete!
-2019-02-04 17:15:40 INFO  Disconnect from SFTP : 192.168.99.100
-2019-02-04 17:15:41 INFO  account_id : 0922164223 Update scheme_code from 252 to 0252 Update acct_bal_amt from 0 to 0.01 Successfully Updated
-2019-02-04 17:15:41 INFO  account_id : 0751073321 Update scheme_code from 154 to 0154 Update acct_bal_amt from 0 to 0.02 Successfully Updated
-2019-02-04 17:15:44 INFO  Remove local file
-2019-02-04 17:15:44 INFO  Connection close
+2019-02-06 11:21:40 INFO  Oracle JDBC Connection
+2019-02-06 11:21:40 INFO  Oracle JDBC Driver Registered!
+2019-02-06 11:21:40 INFO  You made it, take control your database now!
+2019-02-06 11:21:40 INFO  WRITE File OACSYN190206.R01
+2019-02-06 11:21:41 INFO  Start Connection to SFTP
+2019-02-06 11:21:41 ERROR com.jcraft.jsch.JSchException: Auth fail
+2019-02-06 11:21:41 ERROR java.lang.NullPointerException
+2019-02-06 11:21:41 INFO  Remove local file
+2019-02-06 11:21:41 INFO  Connection close
+2019-02-06 11:21:50 INFO  Oracle JDBC Connection
+2019-02-06 11:21:50 INFO  Oracle JDBC Driver Registered!
+2019-02-06 11:21:51 INFO  You made it, take control your database now!
+2019-02-06 11:21:51 INFO  WRITE File OACSYN190206.R01
+2019-02-06 11:21:51 INFO  Start Connection to SFTP
+2019-02-06 11:21:51 ERROR com.jcraft.jsch.JSchException: Auth fail
+2019-02-06 11:21:51 ERROR java.lang.NullPointerException
+2019-02-06 11:21:51 INFO  Remove local file
+2019-02-06 11:21:51 INFO  Connection close
