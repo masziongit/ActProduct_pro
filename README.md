@@ -30,6 +30,9 @@ upload.file.name.prefix=IACSYN
 download.file.format=OACSYN[0-9]{6}(\\.)R01
 download.file.name.prefix=OACSYN
 
+file.upload.path=D:\\Temp\\Upload\\
+file.download.path=D:\\Temp\\Download\\
+
 
 #BeanIO
 mapping.file=mapping.xml
