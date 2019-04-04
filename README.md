@@ -1,4 +1,4 @@
-# ActProduct
+# PaymentHub
 
 Configuration
 ---------------
@@ -30,9 +30,6 @@ upload.file.name.prefix=IACSYN
 download.file.format=OACSYN[0-9]{6}(\\.)R01
 download.file.name.prefix=OACSYN
 
-file.upload.path=D:\\Temp\\Upload\\
-file.download.path=D:\\Temp\\Download\\
-
 
 #BeanIO
 mapping.file=mapping.xml
@@ -44,12 +41,18 @@ log.config.file=log4j.properties
 
 Usage command
 ---------------
+
+Encrypt password
 ```sh
-java -Dconfig.file=${config.properties} -jar ${ActProduct.jar} ${mode}
+java -cp ActProduct.jar gen.AESCrypt ${password}
+```
+
+```sh
+java -Dconfig.file=${config.properties} -jar ${PaymentHub.jar} ${mode}
 ```
   Use -Dconfig.file=${config.properties} to get your config
 	
-  Use -jar ${ActProduct.jar} to get your jarfile to run
+  Use -jar ${PaymentHub.jar} to get your jarfile to run
 	
   Use ${mode} to set your mode to run
 		use "write" to Write data from database to file
