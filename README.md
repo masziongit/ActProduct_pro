@@ -46,7 +46,7 @@ Encrypt password
 ```sh
 java -cp ActProduct.jar gen.AESCrypt ${password}
 ```
-
+Start app
 ```sh
 java -Dconfig.file=${config.properties} -jar ${PaymentHub.jar} ${mode}
 ```
@@ -58,5 +58,3 @@ java -Dconfig.file=${config.properties} -jar ${PaymentHub.jar} ${mode}
 		use "write" to Write data from database to file
 		use "read" to Read data from to file to database
 
-		
-select g.branch_code,g.scheme_code,g.acct_bal_amt,g.acct_crncy,g.account_id,g.scheme_type,cp.cntrl_key FROM tbaadm.egam g left join custom.c_Cppma cp on (g.account_id = cp.account_id) WHERE g.bank_id= '011' AND g.scheme_type!='OAB AND LENGTH(account_id) = 10
