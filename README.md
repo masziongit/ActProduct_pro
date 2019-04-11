@@ -35,6 +35,29 @@ download.file.name.prefix=OACSYN
 mapping.file=mapping.xml
 stream.name=paymenthub
 
+#MAIL SERVER
+mail.transport.protocol=smtp
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.host=smtp.live.com
+mail.smtp.port=25
+
+#debug
+mail.debug=true
+
+#auth
+mail.user=
+mail.pass=
+
+#content
+mail.sender=
+mail.cc=
+mail.bcc=
+mail.dateformat=dd-MM-yyyy
+mail.subject=[ERROR ACTPRODUCT] - as of #dd-MM-yyyy from PAYMENTHUB
+#mail.message.html.file=body_message.html
+
+
 #Log4j
 log.config.file=log4j.properties
 ```
@@ -46,7 +69,7 @@ Encrypt password
 ```sh
 java -cp ActProduct.jar gen.AESCrypt ${password}
 ```
-Start app
+Run program
 ```sh
 java -Dconfig.file=${config.properties} -jar ${PaymentHub.jar} ${mode}
 ```
